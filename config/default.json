@@ -1,0 +1,4 @@
+{
+    "mongoUri":"mongodb+srv://JeZoS:Password@bello.7xfuz.mongodb.net/contact-keeper?retryWrites=true&w=majority",
+    "jwtSECRET":"HELLO_MFK"
+}

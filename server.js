@@ -1,6 +1,11 @@
 const express = require("express");
+const connectDB = require("./config/db");
 
 const app = express();
+
+connectDB();
+
+app.use(express.json({ extended: true }));
 
 app.get("/", (req, res) => {
   res.json({ msg: "Hello lil bitch" });
